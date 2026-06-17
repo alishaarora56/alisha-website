@@ -23,12 +23,22 @@ const selectors = {
 };
 
 const experienceData = {
+  tesla: {
+    year: "Current",
+    company: "Tesla",
+    role: "Machine Learning Engineering Intern",
+    summary:
+      "Currently building AI agents and evals for Tesla products.",
+    image: "assets/tesla.jpg",
+    alt: "Tesla logo on a red background",
+    link: "https://www.tesla.com/",
+  },
   shopify: {
     year: "Sep 2025 - Dec 2025, Bellevue WA",
     company: "Shopify",
     role: "Machine Learning Engineering Intern",
     summary:
-      "Currently building transformer-based recommendation models and a context-aware tokenizer that powers richer product discovery for millions of users.",
+      "Built transformer-based recommendation models and a context-aware tokenizer that powers richer product discovery for millions of users.",
     image: "assets/shopify_20stores_1cb40842-dab6-4920-a234-4da36e79fc8a.webp",
     alt: "Shopify storefront collage",
     link: "https://www.shopify.com/",
@@ -68,7 +78,7 @@ const experienceData = {
     company: "Procter & Gamble",
     role: "Application & Software Engineering Intern",
     summary:
-      "Created data-driven ad and partnership tools with Python, Vue.js, and AWS that improved user engagement and drove measurable revenue growth.",
+      "Youngest engineer to join the company, where I led the development of Always You, a mobile application focused on women's health.",
     image: "assets/644fb7a6e9fe28755bd56399_20230501T1259-9841d46c-efcb-4b42-9d1a-1a80ea1d48e3.jpg",
     alt: "P&G laboratory workspace",
     link: "https://www.pg.com/",
@@ -88,7 +98,7 @@ const chatKnowledge = [
   {
     prompt: ["who", "you", "alisha", "intro", "about"],
     response:
-      "Hi, I’m Alisha — a Systems Design Engineering student at the University of Waterloo. I build at the intersection of AI systems, software, and impact. Currently at Shopify working on transformer-based recommendation models, recognized as one of Canada’s Top 100 Most Powerful Women and a Rising Star in AI by Women in AI North America.",
+      "Hi, I’m Alisha — a Systems Design Engineering student at the University of Waterloo. I build at the intersection of AI systems, software, and impact. Currently building AI agents and evals for Tesla products, recognized as one of Canada’s Top 100 Most Powerful Women and a Rising Star in AI by Women in AI North America.",
   },
   {
     prompt: ["goal", "dream", "future", "vision", "mission"],
@@ -108,7 +118,7 @@ const chatKnowledge = [
   {
     prompt: ["experience", "internship", "resume", "jobs", "companies", "work"],
     response:
-      "Alisha’s interned across Shopify (MLE), TELUS (ML & Software), Microsoft, MIT AI Lab, Vitala Global, and Procter & Gamble — shipping ML models, recommendation systems, and scalable backend infrastructure at every stage.",
+      "Alisha’s interned across Tesla, Shopify (MLE), TELUS (ML & Software), Microsoft, MIT AI Lab, Vitala Global, and Procter & Gamble — building AI agents, ML models, recommendation systems, and scalable backend infrastructure.",
   },
   {
     prompt: ["unicef", "wef", "hopesisters", "leadership", "beyond"],
